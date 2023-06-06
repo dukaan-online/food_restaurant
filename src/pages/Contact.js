@@ -89,14 +89,10 @@ const Contact = () => {
                         <TableBody>
                             <TableRow>
                                 <TableCell>
-                                    <CallIcon sx={{ pt: 1 }} /> 9999999999
+                                    <CallIcon sx={{ pt: 1 }} /> +91 9891870274
                                 </TableCell>
                             </TableRow>
-                            <TableRow>
-                                <TableCell>
-                                    <EmailIcon sx={{ pt: 1 }} /> abc@gmail.com
-                                </TableCell>
-                            </TableRow>
+                           
                             <TableRow>
                                 <TableCell>
                                     <StoreIcon /> Mahadev Nagar, Manjri ( Hadapsar ) 412307
