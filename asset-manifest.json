@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.dac9b2bb.css",
-    "main.js": "/static/js/main.1f1abdae.js",
-    "static/media/spec_thali.jpg": "/static/media/spec_thali.f4dd64f4906d42ddcbdb.jpg",
-    "static/media/shop.jpg": "/static/media/shop.7097ba56ebf8d21565fd.jpg",
-    "static/media/pizza.png": "/static/media/pizza.80b3d1dbd8a2c9f0567b.png",
-    "static/media/shop1.jpg": "/static/media/shop1.266b521fc165cde17f53.jpg",
-    "static/media/shop2.jpg": "/static/media/shop2.96053c8cef12e62d25a4.jpg",
-    "static/media/chole.jpg": "/static/media/chole.a1458ef1370699c23212.jpg",
-    "static/media/empty-cart.png": "/static/media/empty-cart.621445dd735630479079.png",
-    "static/media/paneer.jpg": "/static/media/paneer.f04d2c563fe596463e47.jpg",
-    "static/media/idli.jpg": "/static/media/idli.dc2d98fda6c7a903c64b.jpg",
-    "static/media/gujrati_thali.jpeg": "/static/media/gujrati_thali.77bd2d3baa11e6cf3dcd.jpeg",
-    "static/media/dosa.jpg": "/static/media/dosa.5c938f456ea86779ba13.jpg",
-    "index.html": "/index.html",
-    "main.dac9b2bb.css.map": "/static/css/main.dac9b2bb.css.map",
-    "main.1f1abdae.js.map": "/static/js/main.1f1abdae.js.map"
+    "main.css": "/food_restaurant/static/css/main.dac9b2bb.css",
+    "main.js": "/food_restaurant/static/js/main.297adae7.js",
+    "static/media/spec_thali.jpg": "/food_restaurant/static/media/spec_thali.f4dd64f4906d42ddcbdb.jpg",
+    "static/media/shop.jpg": "/food_restaurant/static/media/shop.7097ba56ebf8d21565fd.jpg",
+    "static/media/pizza.png": "/food_restaurant/static/media/pizza.80b3d1dbd8a2c9f0567b.png",
+    "static/media/shop1.jpg": "/food_restaurant/static/media/shop1.266b521fc165cde17f53.jpg",
+    "static/media/shop2.jpg": "/food_restaurant/static/media/shop2.96053c8cef12e62d25a4.jpg",
+    "static/media/chole.jpg": "/food_restaurant/static/media/chole.a1458ef1370699c23212.jpg",
+    "static/media/empty-cart.png": "/food_restaurant/static/media/empty-cart.621445dd735630479079.png",
+    "static/media/paneer.jpg": "/food_restaurant/static/media/paneer.f04d2c563fe596463e47.jpg",
+    "static/media/idli.jpg": "/food_restaurant/static/media/idli.dc2d98fda6c7a903c64b.jpg",
+    "static/media/gujrati_thali.jpeg": "/food_restaurant/static/media/gujrati_thali.77bd2d3baa11e6cf3dcd.jpeg",
+    "static/media/dosa.jpg": "/food_restaurant/static/media/dosa.5c938f456ea86779ba13.jpg",
+    "index.html": "/food_restaurant/index.html",
+    "main.dac9b2bb.css.map": "/food_restaurant/static/css/main.dac9b2bb.css.map",
+    "main.297adae7.js.map": "/food_restaurant/static/js/main.297adae7.js.map"
   },
   "entrypoints": [
     "static/css/main.dac9b2bb.css",
-    "static/js/main.1f1abdae.js"
+    "static/js/main.297adae7.js"
   ]
 }
