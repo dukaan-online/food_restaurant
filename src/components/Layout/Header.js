@@ -55,7 +55,7 @@ const Header = () => {
                 <AppBar component={'nav'} sx={{ bgcolor: 'black' }}>
                     <Toolbar>
                         <IconButton color='inherit' aria-label='open drawer' edge="start" sx={{ mr: 2, display: { sm: 'none' } }} onClick={handleDrawer}>
-                            <MenuIcon />
+                            <MenuIcon sx={{fontSize:25}} />
                         </IconButton>
                         <Typography color={"goldenrod"} var="h6" component={"div"} sx={{ flexGrow: 1, fontSize: "2rem" }}>
                             <FastfoodIcon />
