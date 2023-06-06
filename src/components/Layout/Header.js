@@ -20,7 +20,7 @@ const Header = () => {
 
     const drawer = (
         <Box sx={{ textAlign: 'center' }}>
-            <Typography color={"goldenrod"} var="h6" component={"div"} sx={{ flexGrow: 1, my: 2, fontSize:"2rem" }}>
+            <Typography color={"goldenrod"} var="h6" component={"div"} sx={{ flexGrow: 1, my: 2, fontSize: "2rem" }}>
                 <FastfoodIcon />
                 My Restaurant
             </Typography>
@@ -41,6 +41,9 @@ const Header = () => {
                 <li>
                     <NavLink to={"/checkorder"}>Check Your Order</NavLink>
                 </li>
+                <li>
+                    <NavLink to={"/admin"}>Admin Panel</NavLink>
+                </li>
             </ul>
         </Box>
     );
@@ -54,7 +57,7 @@ const Header = () => {
                         <IconButton color='inherit' aria-label='open drawer' edge="start" sx={{ mr: 2, display: { sm: 'none' } }} onClick={handleDrawer}>
                             <MenuIcon />
                         </IconButton>
-                        <Typography color={"goldenrod"} var="h6" component={"div"} sx={{ flexGrow: 1,fontSize:"2rem" }}>
+                        <Typography color={"goldenrod"} var="h6" component={"div"} sx={{ flexGrow: 1, fontSize: "2rem" }}>
                             <FastfoodIcon />
                             My Restaurant
                         </Typography>
@@ -76,6 +79,9 @@ const Header = () => {
                                     <NavLink to={"/checkorder"}>Check Your Order</NavLink>
                                 </li>
                                 <li>
+                                    <NavLink to={"/admin"}>Admin Panel</NavLink>
+                                </li>
+                                <li>
                                     <NavLink to={"/cart"}>
                                         <Box component={"div"} sx={{
                                             background: 'goldenrod',
@@ -85,9 +91,9 @@ const Header = () => {
                                         }}>{
                                                 cart
                                                     ?
-                                                    <Typography component={"span"} sx={{ ml: 2, color: 'black', fontWeight: "bold",fontSize:"15px" }}>{cart.total_items ? cart.total_items : 0}</Typography>
+                                                    <Typography component={"span"} sx={{ ml: 2, color: 'black', fontWeight: "bold", fontSize: "15px" }}>{cart.total_items ? cart.total_items : 0}</Typography>
                                                     :
-                                                    <Typography component={"span"} sx={{ ml: 2, color: 'black', fontWeight: "bold",fontSize:"15px" }}>0</Typography>
+                                                    <Typography component={"span"} sx={{ ml: 2, color: 'black', fontWeight: "bold", fontSize: "15px" }}>0</Typography>
                                             }
                                             <ShoppingCartIcon sx={{ mr: 1, ml: 1, mt: 0.5, color: 'black' }} />
                                         </Box>
@@ -107,9 +113,9 @@ const Header = () => {
                                         }}>{
                                                 cart
                                                     ?
-                                                    <Typography component={"span"} sx={{ ml: 2, color: 'black', fontWeight: "bold" ,fontSize:"15px"}}>{cart.total_items ? cart.total_items : 0}</Typography>
+                                                    <Typography component={"span"} sx={{ ml: 2, color: 'black', fontWeight: "bold", fontSize: "15px" }}>{cart.total_items ? cart.total_items : 0}</Typography>
                                                     :
-                                                    <Typography component={"span"} sx={{ ml: 2, color: 'black', fontWeight: "bold" ,fontSize:"15px" }}>0</Typography>
+                                                    <Typography component={"span"} sx={{ ml: 2, color: 'black', fontWeight: "bold", fontSize: "15px" }}>0</Typography>
                                             }
                                             <ShoppingCartIcon sx={{ mr: 1, ml: 1, mt: 0.5, color: 'black' }} />
                                         </Box>

@@ -39,7 +39,7 @@ function App() {
             <Route path="/menu" element={< Menu />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/checkorder" element={<CheckOrder />} />
-            <Route path="/food_restaurant/admin" element={<Admin />} />
+            <Route path="/admin" element={<Admin />} />
             <Route path="*" element={<Pagenotfound />} />
           </Routes>
         </CartContext.Provider>
