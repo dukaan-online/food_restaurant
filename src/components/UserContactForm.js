@@ -41,7 +41,7 @@ const UserContactForm = (props) => {
             setProducts([]);
             setCart({});
             setOpenPopup(false);
-            window.open("/", "_self")
+            window.open("/food_restaurant", "_self")
         }
     }
 
